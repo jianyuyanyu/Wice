@@ -8,29 +8,29 @@
     ".NETCoreApp,Version=v10.0": {
       "WebView2/1.5.0": {
         "dependencies": {
-          "DirectNAot": "1.6.3",
-          "DirectNAot.Extensions": "1.6.3"
+          "DirectNAot": "1.6.4",
+          "DirectNAot.Extensions": "1.6.4"
         },
         "runtime": {
           "WebView2.dll": {}
         }
       },
-      "DirectNAot/1.6.3": {
+      "DirectNAot/1.6.4": {
         "runtime": {
           "lib/net10.0/DirectN.dll": {
-            "assemblyVersion": "1.6.3.0",
-            "fileVersion": "1.6.3.0"
+            "assemblyVersion": "1.6.4.0",
+            "fileVersion": "1.6.4.0"
           }
         }
       },
-      "DirectNAot.Extensions/1.6.3": {
+      "DirectNAot.Extensions/1.6.4": {
         "dependencies": {
-          "DirectNAot": "1.6.3"
+          "DirectNAot": "1.6.4"
         },
         "runtime": {
           "lib/net10.0/DirectN.Extensions.dll": {
-            "assemblyVersion": "1.6.3.0",
-            "fileVersion": "1.6.3.0"
+            "assemblyVersion": "1.6.4.0",
+            "fileVersion": "1.6.4.0"
           }
         }
       }
@@ -42,19 +42,19 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DirectNAot/1.6.3": {
+    "DirectNAot/1.6.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-GWTLaPDHGyjPjWdc3WVgOd+FEJaMKlYtNGEPugXThbXMva5wfXdsiJIwMJ+72aW1w8ss+0vn2zjDRjjLYrxUKA==",
-      "path": "directnaot/1.6.3",
-      "hashPath": "directnaot.1.6.3.nupkg.sha512"
+      "sha512": "sha512-SIdr4Yzwx3/Sib6nRygyT8HdnDHQfN4EFNj7zTJNuoa4LhpWW4g77vl8aIif7nPAA9yKXnQJRu4i1iUcrvRqGA==",
+      "path": "directnaot/1.6.4",
+      "hashPath": "directnaot.1.6.4.nupkg.sha512"
     },
-    "DirectNAot.Extensions/1.6.3": {
+    "DirectNAot.Extensions/1.6.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-4KnvWQnld3JimbGSU/c9Jn/3cl2bGsVnQVtkI/xxhbeQJa34mk8y+b3Ytd7gHDF6umDtDrvGoqdk5JoF1HiClQ==",
-      "path": "directnaot.extensions/1.6.3",
-      "hashPath": "directnaot.extensions.1.6.3.nupkg.sha512"
+      "sha512": "sha512-amyGf9Nl3TQ6XmMoD4wtOv9l/iH19LAMC3+Tfx0+mAIOMlWyjNd33M/KrWt1y3o4y03v+AevqLuRZwQdNJuBuQ==",
+      "path": "directnaot.extensions/1.6.4",
+      "hashPath": "directnaot.extensions.1.6.4.nupkg.sha512"
     }
   }
 }
