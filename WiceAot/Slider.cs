@@ -759,7 +759,7 @@ public partial class Slider<[DynamicallyAccessedMembers(DynamicallyAccessedMembe
 
         var step = TicksStep;
         if (T.IsNegative(step) || step.Equals(T.Zero))
-            return [MinValue, MaxValue];
+            return (T[])[MinValue, MaxValue];
 
         var list = new List<T>();
         for (var t = MinValue; t < MaxValue; t = T.MultiplyAddEstimate(t, T.MultiplicativeIdentity, step))

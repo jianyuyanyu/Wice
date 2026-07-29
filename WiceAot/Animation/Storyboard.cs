@@ -61,7 +61,7 @@ public abstract class Storyboard : AnimationObject
     /// <summary>
     /// Gets a snapshot copy of <see cref="Children"/> taken under a private lock for safe enumeration.
     /// </summary>
-    protected IReadOnlyList<Animation> LockedChildren { get { lock (_lock) { return [.. Children]; } } }
+    protected IReadOnlyList<Animation> LockedChildren { get { lock (_lock) { return (Animation[])[.. Children]; } } }
 
     /// <summary>
     /// Gets the aggregate duration of all child animations.

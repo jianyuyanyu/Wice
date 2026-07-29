@@ -97,7 +97,7 @@ public partial class Application : IDisposable
         {
             lock (_windowsLock)
             {
-                return [.. _allWindows.Where(w => w.ManagedThreadId == MainThreadId)];
+                return (Window[])[.. _allWindows.Where(w => w.ManagedThreadId == MainThreadId)];
             }
         }
     }
@@ -111,7 +111,7 @@ public partial class Application : IDisposable
         {
             lock (_windowsLock)
             {
-                return [.. _allWindows.Where(w => w.ManagedThreadId == MainThreadId && w.IsBackground)];
+                return (Window[])[.. _allWindows.Where(w => w.ManagedThreadId == MainThreadId && w.IsBackground)];
             }
         }
     }
@@ -125,7 +125,7 @@ public partial class Application : IDisposable
         {
             lock (_windowsLock)
             {
-                return [.. _allWindows.Where(w => w.ManagedThreadId == MainThreadId && !w.IsBackground)];
+                return (Window[])[.. _allWindows.Where(w => w.ManagedThreadId == MainThreadId && !w.IsBackground)];
             }
         }
     }
@@ -416,7 +416,7 @@ public partial class Application : IDisposable
         {
             lock (_windowsLock)
             {
-                return [.. _allWindows];
+                return (Window[])[.. _allWindows];
             }
         }
     }
